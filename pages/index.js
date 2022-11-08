@@ -31,8 +31,8 @@ export default function Home() {
       <Header title="Anton Sanin Portfolio" description="Anton Sanin Portfolio"/>
 
       <main className="px-10 mb-5">
-        <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-end">
+        <section className="min-h-screen flex flex-col">
+          <nav className="py-10 justify-end hidden sm:flex">
             <ul className="flex items-center">
               <li>
                 <a className="bg-gradient-to-r from-pink-600 to-pink-700 
@@ -41,7 +41,7 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="relative flex justify-center pb-5">
+          <div className="relative flex justify-center pb-5 mt-12">
             <Image src={toxa} className="rounded-full w-60 h-60" alt="toxa" priority />
           </div>
           <div className="text-center">
@@ -62,10 +62,10 @@ export default function Home() {
               <AiFillGithub />
             </a>
           </div> 
-          <div className="flex justify-center pt-28 animate-pulse"> 
-            <Link to="portfolio" smooth={true}>
+          <div className="flex justify-center pb-5 animate-pulse"> 
+            <Link to="portfolio" className="flex flex-col items-center" smooth={true}>
                 <h1 className="text-2xl text-gray-200 cursor-pointer">Portfolio</h1>
-                <BsChevronDoubleDown className="text-2xl ml-8 text-gray-200 cursor-pointer" />
+                <BsChevronDoubleDown className="text-2xl text-gray-200 cursor-pointer" />
             </Link>
           </div>      
         </section>
