@@ -5,8 +5,8 @@ export const Portfolio = (props) => {
         <div id="portfolio" className="grid sm:grid-cols-1 lg:grid-cols-2 gap-4">
             {props.projects.map((callout, index) => (
               <div key={index} className="text-gray-200 border-l-4 mb-5 text-center rounded p-4 border-custom-red">
-                {callout.url ? <a href={callout.url} target="_blank"><FiExternalLink /></a> : ""}
-                {callout.url ? <a className="text-center" href={callout.url} target="_blank"><h2 className="text-center">{callout.name}</h2></a>
+                {callout.url ? <a href={callout.url} target="_blank" rel="noreferrer"><FiExternalLink /></a> : ""}
+                {callout.url ? <a className="text-center" href={callout.url} target="_blank" rel="noreferrer"><h2 className="text-center">{callout.name}</h2></a>
                             : <h2 className="text-center">{callout.name}</h2>}
                 <p>{callout.description}</p>
                 <div className="mt-10">

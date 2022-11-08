@@ -36,7 +36,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <a className="bg-gradient-to-r from-pink-600 to-pink-700 
-              text-white px-4 py-2 border-none rounded-md ml-8" href={CV} target="_blank">Resume</a>
+              text-white px-4 py-2 border-none rounded-md ml-8" href={CV} target="_blank" rel="noreferrer">Resume</a>
               </li>
             </ul>
           </nav>
@@ -52,13 +52,13 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-8 py-3 text-white flex-grow">
-            <a target="_blank" href="mailto:sanin.tony.work@gmail.com">
+            <a target="_blank" rel="noreferrer" href="mailto:sanin.tony.work@gmail.com">
               <AiFillMail />
             </a>
-            <a href="https://t.me/bcryptxd" target="_blank">
+            <a href="https://t.me/bcryptxd" target="_blank" rel="noreferrer">
               <BsTelegram />
             </a>
-            <a href="https://github.com/thedxrklord" target="_blank">
+            <a href="https://github.com/thedxrklord" target="_blank" rel="noreferrer">
               <AiFillGithub />
             </a>
           </div> 
