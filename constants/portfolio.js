@@ -12,6 +12,12 @@ export const projects = [
       url: 'https://citizenremote.com/',
     },
     {
+      name: 'Sarafun',
+      description: 'Api for react native application with multiple music recognition services integration',
+      stack: ['Laravel', 'AUDD', 'Shazam'],
+      url: null,
+    },
+    {
       name: 'NDA',
       description: 'Laravel CMS for more then 5000+ sites. Sites can be created and deployed via this cms',
       stack: ['Laravel', 'Beget API', 'AWS', 'React', 'Redis', 'SSR', 'CI/CD'],
