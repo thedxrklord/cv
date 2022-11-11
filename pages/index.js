@@ -46,9 +46,12 @@ export default function Home() {
           </div>
           <div className="text-center">
             <h2 className="text-5xl py-2 custom-red font-medium my-info" data-replace="Anton Sanin">&#123;&#123; user.name &#125;&#125;</h2>
-            <h3 className="text-2xl py-2 my-info text-gray-200" data-replace="Developer">&#123;&#123; user.speciality &#125;&#125;</h3>
-            <p className="text-md py-5 leading-8 text-gray-200 my-info" data-replace="Backend Developer with 5+ years of commercial experience">
+            <h3 className="text-2xl py-2 text-gray-200 my-info" data-replace="Fullstack Developer">&#123;&#123; user.speciality &#125;&#125;</h3>
+            <p className="text-md py-5 leading-8 text-gray-200 my-info" data-replace="Developer with 5+ years of commercial experience">
             &#123;&#123; user.about &#125;&#125;
+            </p>
+            <p className="text-md mb-8 leading-8 text-gray-200 my-info" data-replace="php/laravel, react, react native, nodejs, typescript, python">
+            &#123;&#123; user.skills &#125;&#125;
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-8 py-3 text-white flex-grow">
