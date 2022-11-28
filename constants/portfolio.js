@@ -66,6 +66,18 @@ export const projects = [
       url: 'https://laminate-center.ru'
     },
     {
+      name: 'Swiss Metrics',
+      description: 'Pure php project. New api integrations have been added and cache usage has been improved',
+      stack: ['PHP', 'Api', 'Rabbitmq'],
+      url: 'https://www.swissmetrics.com/'
+    },
+    {
+      name: 'EBRD',
+      description: 'Laravel project with backpack admin. Improvements were made in the admin panel and a multilingual system was added',
+      stack: ['Laravel', 'Backpack'],
+      url: 'https://ebrd.com'
+    },
+    {
       name: 'Cheapollo',
       description: 'Construction marketplace',
       stack: ['Laravel', 'CI/CD', 'Sberbank Cash', 'Redis', 'Rabbitmq'],
