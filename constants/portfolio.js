@@ -54,6 +54,24 @@ export const projects = [
       url: 'https://brobar.delivery'
     },
     {
+      name: 'Mountain View',
+      description: 'Small ecommerce with ggseller integration',
+      stack: ['GGSeller', 'Javascript'],
+      url: 'https://csmv.cc'
+    },
+    {
+      name: 'Stonks Accs',
+      description: 'Accounts ecommerce with ggseller integration',
+      stack: ['GGSeller', 'Laravel', 'Javascript'],
+      url: 'https://stonks-accs.com'
+    },
+    {
+      name: 'Lookfor rent',
+      description: 'Real estate marketplace',
+      stack: ['Laravel', 'Apple Calendar', 'Booking'],
+      url: 'https://lookfor.rent'
+    },
+    {
       name: 'Brobar',
       description: 'Restaurant landing page with simple crud for menu',
       stack: ['Laravel', 'CI/CD'],
